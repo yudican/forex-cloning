@@ -32,22 +32,22 @@
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-1.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:20px;">
-									<small class="text-muted">Minimum deposit</small>
-									<div class="b">{{ $list['list_min_depo'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Minimum deposit</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_min_depo'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-2.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:27px;">
-									<small class="text-muted">Regulation</small>
-									<div class="b">{{ $list['list_regulation'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Regulation</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_regulation'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-3.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:20px;">
-									<small class="text-muted">Bonus</small>
-									<div class="b">{{ $list['list_bonus'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Bonus</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_bonus'] }}</div>
 								</div>
 							</div>
 						</div>
@@ -55,22 +55,22 @@
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-4.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:20px;">
-									<small class="text-muted">Maximum leverage</small>
-									<div class="b">{{ $list['list_max_leverage'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Maximum leverage</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_max_leverage'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-5.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:20px;">
-									<small class="text-muted">Year founded</small>
-									<div class="b">{{ $list['list_year_found'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Year founded</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_year_found'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-6.svg') }}" alt="">
 								<div class="text-wrap" style="padding-left:20px;">
-									<small class="text-muted">Trading platform</small>
-									<div class="b">{{ $list['list_trading_platform'] }}</div>
+									<small class="text-muted" style="font-size:14px;">Trading platform</small>
+									<div class="b" style="font-size:16px;padding-top:4px;">{{ $list['list_trading_platform'] }}</div>
 								</div>
 							</div>
 						</div>

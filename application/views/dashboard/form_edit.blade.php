@@ -17,11 +17,11 @@
                     <label for="textInput">Rating</label>
                     <select class="browser-default custom-select mb-4" name="list_rating" id="select">
                         <option value="" disabled="" selected="">Choose your option</option>
-                        <option value="20" {{select_value($lists->list_nama,'20')}}> 1</option>
-                        <option value="40" {{select_value($lists->list_nama,'40')}}> 2</option>
-                        <option value="60" {{select_value($lists->list_nama,'60')}}> 3</option>
-                        <option value="80" {{select_value($lists->list_nama,'80')}}> 4</option>
-                        <option value="100" {{select_value($lists->list_nama,'100')}}> 5</option>
+                        <option value="20" {{select_value($lists->list_rating,'20')}}> 1</option>
+                        <option value="40" {{select_value($lists->list_rating,'40')}}> 2</option>
+                        <option value="60" {{select_value($lists->list_rating,'60')}}> 3</option>
+                        <option value="80" {{select_value($lists->list_rating,'80')}}> 4</option>
+                        <option value="100" {{select_value($lists->list_rating,'100')}}> 5</option>
                     </select>
 
                     <label for="textInput">Minimum Deposit</label>
