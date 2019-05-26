@@ -31,21 +31,21 @@
 						<div class="row">
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-1.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:20px;">
 									<small class="text-muted">Minimum deposit</small>
 									<div class="b">{{ $list['list_min_depo'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-2.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:27px;">
 									<small class="text-muted">Regulation</small>
 									<div class="b">{{ $list['list_regulation'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-3.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:20px;">
 									<small class="text-muted">Bonus</small>
 									<div class="b">{{ $list['list_bonus'] }}</div>
 								</div>
@@ -54,21 +54,21 @@
 						<div class="row mt-4">
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-4.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:20px;">
 									<small class="text-muted">Maximum leverage</small>
 									<div class="b">{{ $list['list_max_leverage'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-5.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:20px;">
 									<small class="text-muted">Year founded</small>
 									<div class="b">{{ $list['list_year_found'] }}</div>
 								</div>
 							</div>
 							<div class="col-sm-4 icontext mb-3">
 								<img src="{{ base_url('asset/icon/icon-6.svg') }}" alt="">
-								<div class="text-wrap">
+								<div class="text-wrap" style="padding-left:20px;">
 									<small class="text-muted">Trading platform</small>
 									<div class="b">{{ $list['list_trading_platform'] }}</div>
 								</div>
