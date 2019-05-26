@@ -46,8 +46,8 @@ if (!function_exists('rating')) {
         return $output;
     }
 }
-if (!function_exists('link')) {
-    function link($link)
+if (!function_exists('getLink')) {
+    function getLink($link)
     {
         if($link == 'N/A'){
             $output = '#';
