@@ -78,7 +78,7 @@
 				</article> <!-- col.// -->
 				<aside class="col-sm-2 mt-3">
 					<div class="action-wrap">
-						<a href="{{ $list['list_web_link'] }}" class="btn btn-primary btn-lg">Open Account</a>
+						<a href="{{ link($list['list_web_link']) }}" class="btn btn-primary btn-lg">Open Account</a>
 					</div> <!-- action-wrap.// -->
 				</aside> <!-- col.// -->
 			</div> <!-- row.// -->

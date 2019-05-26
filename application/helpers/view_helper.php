@@ -46,6 +46,18 @@ if (!function_exists('rating')) {
         return $output;
     }
 }
+if (!function_exists('link')) {
+    function link($link)
+    {
+        if($link == 'N/A'){
+            $output = '#';
+        }else{
+            $output = $link;
+        }
+
+        return $output;
+    }
+}
 if ( ! function_exists('getFoto')){
     function getFoto($foto){
         if (empty($foto)) {
