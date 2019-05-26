@@ -8,7 +8,7 @@
     <link href="<?php echo base_url('asset/css/uikit.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('asset/css/responsive.css') ?>" rel="stylesheet" media="only screen and (max-width: 1200px)">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Get your hands on the list of the best Forex brokers here</title>
     <style>
         body{
             background-color: #F8F8F8;
