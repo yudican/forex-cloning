@@ -3,7 +3,7 @@
 <div class="card wow fadeIn" style="margin-bottom:100px;">
 
     <h5 class="card-header info-color white-text text-center py-4">
-        <strong>input new list</strong>
+        <strong>update list</strong>
     </h5>
 
     <div class="card-body px-lg-5 pt-0">
@@ -62,7 +62,8 @@
                     
                 </div>
             </div>
-            <button class="btn btn-info btn-block my-4" type="submit">Save</button>
+            <button class="btn btn-info my-4" type="submit">Save</button>
+            <a href="{{ base_url('dashboard/listing/') }}" class="btn btn-primary my-4">Back</a>
         </form>
     </div>
 </div>

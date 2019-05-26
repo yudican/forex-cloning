@@ -58,7 +58,8 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-info btn-block my-4" type="submit">Save</button>
+            <button class="btn btn-info my-4" type="submit">Save</button>
+            <a href="{{ base_url('dashboard/listing/') }}" class="btn btn-primary my-4">Back</a>
         </form>
     </div>
 </div>
