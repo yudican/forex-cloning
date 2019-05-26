@@ -11,7 +11,7 @@
 						<h4>{{ $list['list_nama'] }}</h4>
 						<div class="rating-wrap">
 							<ul class="rating-stars">
-								<li style="width:{{ $list['list_rating'] }}%" class="stars-active"> 
+								<li style="width:{{ rating($list['list_rating'])*20 }}%" class="stars-active"> 
 									<i class="fa fa-star" style="font-size:12px;"></i> <i class="fa fa-star" style="font-size:12px;"></i> 
 									<i class="fa fa-star" style="font-size:12px;"></i> <i class="fa fa-star" style="font-size:12px;"></i> 
 									<i class="fa fa-star" style="font-size:12px;"></i> 

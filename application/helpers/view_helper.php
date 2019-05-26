@@ -34,6 +34,18 @@ if (!function_exists('select_value')) {
         return $output;
     }
 }
+if (!function_exists('rating')) {
+    function rating($rating)
+    {
+        if($rating == 'N/A'){
+            $output = '0';
+        }else{
+            $output = $rating/20;
+        }
+
+        return $output;
+    }
+}
 if ( ! function_exists('getFoto')){
     function getFoto($foto){
         if (empty($foto)) {

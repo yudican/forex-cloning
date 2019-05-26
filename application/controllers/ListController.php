@@ -24,6 +24,7 @@ class ListController extends CI_Controller {
                 ->unset_column('id_list')
                 ->from('list_table')
                 ->edit_column('list_gambar','$1','getFoto(list_gambar)')
+                ->edit_column('list_rating','$1','rating(list_rating)')
                 ->add_column('nomor','1')
                 ->add_column('actions', '<a href="'.site_url('dashboard/listing/edit/').'$1" class="edit_record btn btn-success btn-sm" data-id="$1"><i class="fa fa-edit"></i></a>  <a href="javascript:void(0);" class="hapus_record btn btn-danger btn-sm" data-id="$1"><i class="fa fa-trash"></i></a>','id_list,list_nama,list_min_depo,list_rating,list_bonus,list_web_link,list_gambar,nomor,actions');
 
