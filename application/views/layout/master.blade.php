@@ -155,6 +155,9 @@
             }
         
         }
+        .d-md-block {
+            display: inline-block !important;
+        }
     </style>
 </head>
 <body>
@@ -189,7 +192,7 @@
             <a class="navbar-brand text-white" href="#" style="overflow: visible;" >LOGO</a>
 
             <div class="inline ml-auto">
-                <span class="text-white d-none d-md-block">Follow us : </span>
+                <span class="text-white d-none d-md-block">Follow us  </span>
                 <a href="" class="btn social-media text-center"><i class="fab fa-facebook-f"></i></a>
                 <a href="" class="btn social-media text-center"><i class="fab fa-youtube" style="margin-left:-2px;"></i></a>
                 <a href="" class="btn social-media text-center"><i class="fab fa-twitter"></i></a>
