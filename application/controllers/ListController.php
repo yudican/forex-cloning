@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class ListController extends CI_Controller {
 	function __construct() {
 		parent:: __construct();
-        // $this->load->helper('view');
+        $this->load->helper('view');
         $this->load->library('Datatables');
         if (!$this->session->userdata('is_login') == true) {
             redirect('auth');
@@ -23,6 +23,7 @@ class ListController extends CI_Controller {
         $this->datatables->select('id_list,list_nama,list_min_depo,list_rating,list_bonus,list_web_link,list_gambar')
                 ->unset_column('id_list')
                 ->from('list_table')
+                ->edit_column('list_web_link','$1','getLink(list_web_link)')
                 ->edit_column('list_gambar','$1','getFoto(list_gambar)')
                 ->edit_column('list_rating','$1','rating(list_rating)')
                 ->add_column('nomor','1')
