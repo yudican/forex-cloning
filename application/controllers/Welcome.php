@@ -25,6 +25,7 @@ class Welcome extends CI_Controller {
 	{
 		$lists = $this->db->get('list_table')->result_array();
 		$sosmed = $this->db->get('sosmed_table')->row_array();
-		return view('home',compact('lists','sosmed'));
+		$logo = $this->db->get_where('logo',['id_logo' => 1])->row_array();
+		return view('home',compact('lists','sosmed','logo'));
 	}
 }

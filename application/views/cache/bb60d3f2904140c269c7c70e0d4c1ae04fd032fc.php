@@ -168,7 +168,7 @@
         <span class="navbar-toggler-icon"></span>
     </button> -->
     <a class="navbar-brand" href="#">
-        <img src=" https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="34" alt="">
+        <img src="<?php echo e(base_url('asset/logo/'.$logo['logo'])); ?>" height="34" alt="">
     </a>
 
     <div class="inline ml-auto">
@@ -191,7 +191,7 @@
     <div class="footer">
         <nav class="container navbar navbar-expand-md bg-primary" style="padding-top:0;padding-bottom:0;">
             <a class="navbar-brand text-white" href="#" style="overflow: visible;" >
-            <img src=" https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="34" alt="">
+            <img src="<?php echo e(base_url('asset/logo/'.$logo['logo'])); ?>" height="34" alt="">
         </a>
 
             <div class="inline ml-auto">
