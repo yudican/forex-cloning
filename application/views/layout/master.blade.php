@@ -185,8 +185,7 @@
 <!-- end content -->
 
 <!-- footer -->
-<footer id="section">
-        <p class="text-center">DISCLAIMER</p>
+<footer id="section" style="margin-top:200px;">
     <div class="footer">
         <nav class="container navbar navbar-expand-md bg-primary" style="padding-top:0;padding-bottom:0;">
             <a class="navbar-brand text-white" href="#" style="overflow: visible;" >LOGO</a>
