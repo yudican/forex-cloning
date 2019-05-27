@@ -47,19 +47,19 @@ position:absolute;
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand waves-effect pl-4" href="{{ base_url('dashboard/listing') }}">
+        <a class="navbar-brand waves-effect pl-4" href="<?php echo e(base_url('dashboard/listing')); ?>">
           <strong class="blue-text">FOREX</strong>
         </a>
 
           <!-- Right -->
           <ul class="navbar-nav nav-flex-icons ml-auto">
             <li class="nav-item">
-              <a href="{{ base_url('dashboard/setting/') }}" class="nav-link waves-effect">
+              <a href="<?php echo e(base_url('dashboard/setting/')); ?>" class="nav-link waves-effect">
                 <i class="fas fa-cogs"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{ base_url('auth/logout') }}" class="nav-link border border-light rounded waves-effect" >
+              <a href="<?php echo e(base_url('auth/logout')); ?>" class="nav-link border border-light rounded waves-effect" >
                 <i class="fas fa-sign-out-alt mr-2"></i>Logout
               </a>
             </li>
@@ -111,7 +111,7 @@ position:absolute;
             <?php echo $CI->session->flashdata('error'); ?>
             </div>
     <?php endif; ?>
-        @yield('content')
+        <?php echo $__env->yieldContent('content'); ?>
     </div>
   </main>
   <!--Main layout-->
@@ -121,7 +121,7 @@ position:absolute;
     <!--Copyright-->
     <div class="footer-copyright py-3">
       © 2019 Copyright:
-      <a href="{{ base_url() }}" target="_blank"> Forex </a>
+      <a href="<?php echo e(base_url()); ?>" target="_blank"> Forex </a>
     </div>
     <!--/.Copyright-->
   </footer>
@@ -144,7 +144,8 @@ position:absolute;
     new WOW().init();
 
   </script>
-  @yield('script')
+  <?php echo $__env->yieldContent('script'); ?>
 </body>
 
 </html>
+<?php /**PATH /opt/lampp/htdocs/forex-cloning/application/views/layout/admin.blade.php ENDPATH**/ ?>

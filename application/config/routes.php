@@ -56,6 +56,9 @@ $route['dashboard/listing/store'] = 'ListController/store';
 $route['dashboard/listing/edit/(:num)'] = 'ListController/edit/$1';
 $route['dashboard/listing/update/(:num)'] = 'ListController/update/$1';
 $route['dashboard/listing/delete/(:num)'] = 'ListController/delete/$1';
+// setting
+$route['dashboard/setting'] = 'setting/index';
+$route['dashboard/setting/sosmed'] = 'setting/update_sosmed';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

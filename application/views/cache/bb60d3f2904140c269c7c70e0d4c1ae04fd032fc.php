@@ -171,9 +171,9 @@
 
     <div class="inline ml-auto">
         <span class="text-white d-none">Follow us : </span>
-        <a href="{{ $sosmed['facebook'] }}" class="btn social-media-navbar text-center"><i class="fab fa-facebook-f"></i></a>
-        <a href="{{ $sosmed['youtube'] }}" class="btn social-media-navbar text-center"><i class="fab fa-youtube" style="margin-left:-2px;"></i></a>
-        <a href="{{ $sosmed['twitter'] }}" class="btn social-media-navbar text-center"><i class="fab fa-twitter"></i></a>
+        <a href="<?php echo e($sosmed['facebook']); ?>" class="btn social-media-navbar text-center"><i class="fab fa-facebook-f"></i></a>
+        <a href="<?php echo e($sosmed['youtube']); ?>" class="btn social-media-navbar text-center"><i class="fab fa-youtube" style="margin-left:-2px;"></i></a>
+        <a href="<?php echo e($sosmed['twitter']); ?>" class="btn social-media-navbar text-center"><i class="fab fa-twitter"></i></a>
     </div>
     </nav>
 </div>
@@ -181,7 +181,7 @@
 
 
 <!-- content -->
-@yield('content')
+<?php echo $__env->yieldContent('content'); ?>
 <!-- end content -->
 
 <!-- footer -->
@@ -193,9 +193,9 @@
 
             <div class="inline ml-auto">
                 <span class="text-white d-none d-md-block">Follow us  </span>
-                <a href="{{ $sosmed['facebook'] }}" class="btn social-media text-center"><i class="fab fa-facebook-f"></i></a>
-                <a href="{{ $sosmed['youtube'] }}" class="btn social-media text-center"><i class="fab fa-youtube" style="margin-left:-2px;"></i></a>
-                <a href="{{ $sosmed['twitter'] }}" class="btn social-media text-center"><i class="fab fa-twitter"></i></a>
+                <a href="<?php echo e($sosmed['facebook']); ?>" class="btn social-media text-center"><i class="fab fa-facebook-f"></i></a>
+                <a href="<?php echo e($sosmed['youtube']); ?>" class="btn social-media text-center"><i class="fab fa-youtube" style="margin-left:-2px;"></i></a>
+                <a href="<?php echo e($sosmed['twitter']); ?>" class="btn social-media text-center"><i class="fab fa-twitter"></i></a>
             </div>
         </nav>
     </div>
@@ -206,4 +206,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>
+</html><?php /**PATH /opt/lampp/htdocs/forex-cloning/application/views/layout/master.blade.php ENDPATH**/ ?>

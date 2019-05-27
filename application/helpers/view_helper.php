@@ -68,3 +68,16 @@ if ( ! function_exists('getFoto')){
         return $resultFoto;
     }
 }
+
+if (!function_exists('set_new_value')) {
+    function set_new_value($value1,$value2)
+    {
+        if(set_value($value1)){
+            $output = set_value($value1);
+        }else{
+            $output = $value2;
+        }
+
+        return $output;
+    }
+}
