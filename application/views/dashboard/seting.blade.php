@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card" style="margin-bottom:100px;">
+        <div class="card" style="margin-bottom:10px;">
 
             <h5 class="card-header info-color white-text text-center py-4">
                 <strong>Update Sosmed</strong>
@@ -68,6 +68,42 @@
                 </form>
             </div>
         </div>
+        <div class="card" style="margin-bottom:100px;">
+
+            <h5 class="card-header info-color white-text text-center py-4">
+                <strong>Update Logo</strong>
+            </h5>
+            <div class="card-body px-lg-5 pt-0">
+
+                <?php echo form_open_multipart(base_url('dashboard/setting/logo'),['class' => 'p-5']); ?>
+                        <div class="input-group mb-4 col-md-12">
+                        <div class="row">
+                                <div class="col-md-4 justify-clear-content">
+                                    <img src="{{ base_url('asset/logo/'.$logo['logo']) }}" alt="{{ $logo['logo'] }}" height="34" >
+                                </div>
+                                <div class="custom-file col-md-8">
+                                    <input type="file" class="custom-file-input" name="logo" id="inputlogo" aria-describedby="fileInput">
+                                    <label class="custom-file-label" id="fileName" for="fileInput">File Label</label>
+                                </div>
+                        </div>
+                            
+                        </div>
+                        <button class="btn btn-info my-4" type="submit">Save</button>
+                        <a href="{{ base_url('dashboard/listing/') }}" class="btn btn-primary my-4">Back</a>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
+@endsection
+@section('script')
+<script>
+    $('#inputlogo').on('change',function(){
+        //get the file name
+        var fileName = $(this).val().replace('C:\\fakepath\\', " ");;
+        //replace the "Choose a file" label
+        $(this).next('#fileName').html(fileName);
+        // console.log(fileName);
+    })
+</script>
 @endsection

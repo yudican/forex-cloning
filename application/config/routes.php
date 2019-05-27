@@ -59,6 +59,7 @@ $route['dashboard/listing/delete/(:num)'] = 'ListController/delete/$1';
 // setting
 $route['dashboard/setting'] = 'setting/index';
 $route['dashboard/setting/sosmed'] = 'setting/update_sosmed';
+$route['dashboard/setting/logo'] = 'setting/update_logo';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

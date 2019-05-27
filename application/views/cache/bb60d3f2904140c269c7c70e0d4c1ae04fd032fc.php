@@ -167,7 +167,9 @@
     <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button> -->
-    <a class="navbar-brand" href="#">LOGO</a>
+    <a class="navbar-brand" href="#">
+        <img src=" https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="34" alt="">
+    </a>
 
     <div class="inline ml-auto">
         <span class="text-white d-none">Follow us : </span>
@@ -188,7 +190,9 @@
 <footer id="section" style="margin-top:200px;">
     <div class="footer">
         <nav class="container navbar navbar-expand-md bg-primary" style="padding-top:0;padding-bottom:0;">
-            <a class="navbar-brand text-white" href="#" style="overflow: visible;" >LOGO</a>
+            <a class="navbar-brand text-white" href="#" style="overflow: visible;" >
+            <img src=" https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="34" alt="">
+        </a>
 
             <div class="inline ml-auto">
                 <span class="text-white d-none d-md-block">Follow us  </span>
