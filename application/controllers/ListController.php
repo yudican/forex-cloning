@@ -67,9 +67,9 @@ class ListController extends CI_Controller {
                     'list_min_depo' => if_empty($this->input->post('list_min_depo',true)),
                     'list_regulation' => if_empty($this->input->post('list_regulation',true)),
                     'list_bonus' => if_empty($this->input->post('list_bonus',true)),
-                    'list_max_leverage' => if_empty($this->input->post('list_max_le)verage',true)),
+                    'list_max_leverage' => if_empty($this->input->post('list_max_leverage',true)),
                     'list_year_found' => if_empty($this->input->post('list_year_found',true)),
-                    'list_trading_platform' => if_empty($this->input->post('list_trading_plat)form',true)),
+                    'list_trading_platform' => if_empty($this->input->post('list_trading_platform',true)),
                     'list_web_link' => if_empty($this->input->post('list_web_link',true))
                 ]);
         
@@ -112,9 +112,9 @@ class ListController extends CI_Controller {
                 'list_min_depo' => if_empty($this->input->post('list_min_depo',true)),
                 'list_regulation' => if_empty($this->input->post('list_regulation',true)),
                 'list_bonus' => if_empty($this->input->post('list_bonus',true)),
-                'list_max_leverage' => if_empty($this->input->post('list_max_le)verage',true)),
+                'list_max_leverage' => if_empty($this->input->post('list_max_leverage',true)),
                 'list_year_found' => if_empty($this->input->post('list_year_found',true)),
-                'list_trading_platform' => if_empty($this->input->post('list_trading_plat)form',true)),
+                'list_trading_platform' => if_empty($this->input->post('list_trading_platform',true)),
                 'list_web_link' => if_empty($this->input->post('list_web_link',true))
             ],['id_list' => $id]);
     
@@ -134,9 +134,9 @@ class ListController extends CI_Controller {
                     'list_min_depo' => if_empty($this->input->post('list_min_depo',true)),
                     'list_regulation' => if_empty($this->input->post('list_regulation',true)),
                     'list_bonus' => if_empty($this->input->post('list_bonus',true)),
-                    'list_max_leverage' => if_empty($this->input->post('list_max_le)verage',true)),
+                    'list_max_leverage' => if_empty($this->input->post('list_max_leverage',true)),
                     'list_year_found' => if_empty($this->input->post('list_year_found',true)),
-                    'list_trading_platform' => if_empty($this->input->post('list_trading_plat)form',true)),
+                    'list_trading_platform' => if_empty($this->input->post('list_trading_platform',true)),
                     'list_web_link' => if_empty($this->input->post('list_web_link',true))
                 ],['id_list' => $id]);
         
