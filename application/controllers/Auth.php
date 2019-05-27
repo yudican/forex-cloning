@@ -13,9 +13,10 @@ class Auth extends CI_Controller {
         if ($this->session->userdata('is_login') == true) {
             redirect('dashboard/listing');
         }
+        $logo = $this->db->get_where('logo',['id_logo' => 1])->row_array();
         $this->form_validation->set_rules('email','email','trim|required|valid_email');
 		if ($this->form_validation->run() == false) {
-            $this->load->view('login');
+            $this->load->view('login',['logo' => $logo]);
             
         }else{
             $password = $this->input->post('password',true);

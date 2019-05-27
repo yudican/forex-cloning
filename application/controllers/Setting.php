@@ -86,7 +86,7 @@ class Setting extends CI_Controller {
 	{
         $row = $this->db->get_where('logo',['id_logo' => 1])->row();
 
-        $config['upload_path']          = './asset/logo/';
+        $config['upload_path']          = './asset/logo';
         $config['allowed_types']        = 'gif|jpg|png|svg';
         $config['max_size']             = 10000;
         $config['max_width']            = 1024;
